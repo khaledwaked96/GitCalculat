@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00815E0020EBD3EB00B07EDD /* MyShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00815DFF20EBD3EA00B07EDD /* MyShadowView.swift */; };
+		00815E0220EBE39600B07EDD /* BrainCalculater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00815E0120EBE39600B07EDD /* BrainCalculater.swift */; };
 		00D8B14720EAEBB40071F037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D8B14620EAEBB40071F037 /* AppDelegate.swift */; };
 		00D8B14920EAEBB40071F037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D8B14820EAEBB40071F037 /* ViewController.swift */; };
 		00D8B14C20EAEBB40071F037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D8B14A20EAEBB40071F037 /* Main.storyboard */; };
 		00D8B14E20EAEBB40071F037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D8B14D20EAEBB40071F037 /* Assets.xcassets */; };
 		00D8B15120EAEBB40071F037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D8B14F20EAEBB40071F037 /* LaunchScreen.storyboard */; };
+		00F1314120EBBBAB000F5170 /* MyCoustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1314020EBBBAB000F5170 /* MyCoustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00815DFF20EBD3EA00B07EDD /* MyShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShadowView.swift; sourceTree = "<group>"; };
+		00815E0120EBE39600B07EDD /* BrainCalculater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainCalculater.swift; sourceTree = "<group>"; };
 		00D8B14320EAEBB40071F037 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D8B14620EAEBB40071F037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D8B14820EAEBB40071F037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		00D8B14D20EAEBB40071F037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D8B15020EAEBB40071F037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00D8B15220EAEBB40071F037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F1314020EBBBAB000F5170 /* MyCoustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCoustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		00D8B14520EAEBB40071F037 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				00D8B14620EAEBB40071F037 /* AppDelegate.swift */,
 				00D8B14820EAEBB40071F037 /* ViewController.swift */,
 				00D8B14A20EAEBB40071F037 /* Main.storyboard */,
-				00D8B14D20EAEBB40071F037 /* Assets.xcassets */,
-				00D8B14F20EAEBB40071F037 /* LaunchScreen.storyboard */,
 				00D8B15220EAEBB40071F037 /* Info.plist */,
+				00815E0120EBE39600B07EDD /* BrainCalculater.swift */,
+				00D8B15820EAEC600071F037 /* SupportedFile */,
 			);
 			path = calculator;
+			sourceTree = "<group>";
+		};
+		00D8B15820EAEC600071F037 /* SupportedFile */ = {
+			isa = PBXGroup;
+			children = (
+				00F1314020EBBBAB000F5170 /* MyCoustomButton.swift */,
+				00815DFF20EBD3EA00B07EDD /* MyShadowView.swift */,
+				00D8B14620EAEBB40071F037 /* AppDelegate.swift */,
+				00D8B14F20EAEBB40071F037 /* LaunchScreen.storyboard */,
+				00D8B14D20EAEBB40071F037 /* Assets.xcassets */,
+			);
+			path = SupportedFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "khaled waked";
 				TargetAttributes = {
 					00D8B14220EAEBB40071F037 = {
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00815E0020EBD3EB00B07EDD /* MyShadowView.swift in Sources */,
 				00D8B14920EAEBB40071F037 /* ViewController.swift in Sources */,
+				00815E0220EBE39600B07EDD /* BrainCalculater.swift in Sources */,
 				00D8B14720EAEBB40071F037 /* AppDelegate.swift in Sources */,
+				00F1314120EBBBAB000F5170 /* MyCoustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +197,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +205,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,6 +256,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +264,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JNP5TA6QJ;
 				INFOPLIST_FILE = calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreGraphics.ldentifier.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JNP5TA6QJ;
 				INFOPLIST_FILE = calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreGraphics.ldentifier.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
